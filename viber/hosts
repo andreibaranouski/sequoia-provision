@@ -38,7 +38,9 @@
 [vibwindows:vars]
 ansible_connection=winrm
 ansible_ssh_user=Administrator
-ansible_ssh_pass=Membase123 
+ansible_ssh_pass=Membase123
+ansible_winrm_server_cert_validation=ignore
+ansible_port=5986
 
 [all:vars]
 ansible_connection=ssh 
